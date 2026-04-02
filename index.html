@@ -565,7 +565,7 @@
 
 <!-- ============ SCHEDULE ============ -->
 <section class="py-24 px-4 bg-[#0f0f0f]">
-    <div class="max-w-3xl mx-auto">
+    <div class="max-w-5xl mx-auto">
         <div class="text-center mb-16">
             <div class="flex items-center justify-center gap-3 mb-4">
                 <div class="h-px w-10 bg-[#AADD00]"></div>
@@ -575,43 +575,48 @@
             <h2 class="fc font-black text-5xl md:text-6xl text-white">HORARIO DE<br><span class="text-[#AADD00]">ATENCIÓN</span></h2>
         </div>
 
-        <div class="space-y-3">
-            <div class="flex items-center justify-between bg-[#111] border border-white/10 rounded-2xl px-6 py-5 hover:border-[#AADD00]/30 transition-colors duration-200">
-                <div class="flex items-center gap-4">
-                    <div class="w-2.5 h-2.5 bg-[#AADD00] rounded-full flex-shrink-0"></div>
-                    <span class="fc font-bold text-white text-xl tracking-wide">LUNES — VIERNES</span>
-                </div>
-                <span class="fc font-black text-[#AADD00] text-xl">5:00AM — 9:00PM</span>
-            </div>
-            <div class="flex items-center justify-between bg-[#111] border border-white/10 rounded-2xl px-6 py-5 hover:border-[#AADD00]/30 transition-colors duration-200">
-                <div class="flex items-center gap-4">
-                    <div class="w-2.5 h-2.5 bg-[#AADD00] rounded-full flex-shrink-0"></div>
-                    <span class="fc font-bold text-white text-xl tracking-wide">SÁBADOS</span>
-                </div>
-                <span class="fc font-black text-[#AADD00] text-xl">8:00AM — 4:00PM</span>
-            </div>
-            <div class="flex items-center justify-between bg-[#111] border border-white/10 rounded-2xl px-6 py-5 hover:border-[#AADD00]/30 transition-colors duration-200">
-                <div class="flex items-center gap-4">
-                    <div class="w-2.5 h-2.5 bg-[#AADD00]/50 rounded-full flex-shrink-0"></div>
-                    <span class="fc font-bold text-white text-xl tracking-wide">DOMINGOS</span>
-                </div>
-                <span class="fc font-black text-[#AADD00] text-xl">9:00AM — 2:00PM</span>
-            </div>
-        </div>
-
-        <div class="mt-4 bg-[#AADD00]/8 border border-[#AADD00]/25 rounded-2xl px-6 py-4 flex items-start gap-4">
-            <svg class="w-5 h-5 text-[#AADD00] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+            <!-- Left: schedule rows -->
             <div>
-                <div class="fc font-bold text-[#AADD00] text-base mb-0.5">FISIOTERAPEUTA — TODOS LOS MARTES</div>
-                <p class="text-white/55 text-sm">De 6:00PM a 8:00PM. ¡No olvides agendar tu cita!</p>
-            </div>
-        </div>
+                <div class="space-y-3">
+                    <div class="flex items-center justify-between bg-[#111] border border-white/10 rounded-2xl px-6 py-5 hover:border-[#AADD00]/30 transition-colors duration-200">
+                        <div class="flex items-center gap-4">
+                            <div class="w-2.5 h-2.5 bg-[#AADD00] rounded-full flex-shrink-0"></div>
+                            <span class="fc font-bold text-white text-xl tracking-wide">LUNES — VIERNES</span>
+                        </div>
+                        <span class="fc font-black text-[#AADD00] text-xl">5:00AM — 9:00PM</span>
+                    </div>
+                    <div class="flex items-center justify-between bg-[#111] border border-white/10 rounded-2xl px-6 py-5 hover:border-[#AADD00]/30 transition-colors duration-200">
+                        <div class="flex items-center gap-4">
+                            <div class="w-2.5 h-2.5 bg-[#AADD00] rounded-full flex-shrink-0"></div>
+                            <span class="fc font-bold text-white text-xl tracking-wide">SÁBADOS</span>
+                        </div>
+                        <span class="fc font-black text-[#AADD00] text-xl">8:00AM — 4:00PM</span>
+                    </div>
+                    <div class="flex items-center justify-between bg-[#111] border border-white/10 rounded-2xl px-6 py-5 hover:border-[#AADD00]/30 transition-colors duration-200">
+                        <div class="flex items-center gap-4">
+                            <div class="w-2.5 h-2.5 bg-[#AADD00]/50 rounded-full flex-shrink-0"></div>
+                            <span class="fc font-bold text-white text-xl tracking-wide">DOMINGOS</span>
+                        </div>
+                        <span class="fc font-black text-[#AADD00] text-xl">9:00AM — 2:00PM</span>
+                    </div>
+                </div>
 
-        <!-- Horario image -->
-        <div class="mt-8 flex justify-center">
-            <img src="assets/artes fotos/horario.png"
-                 alt="Horario de atención Strong Gym"
-                 class="w-full max-w-sm rounded-2xl border border-white/10">
+                <div class="mt-4 bg-[#AADD00]/8 border border-[#AADD00]/25 rounded-2xl px-6 py-4 flex items-start gap-4">
+                    <svg class="w-5 h-5 text-[#AADD00] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    <div>
+                        <div class="fc font-bold text-[#AADD00] text-base mb-0.5">FISIOTERAPEUTA — TODOS LOS MARTES</div>
+                        <p class="text-white/55 text-sm">De 6:00PM a 8:00PM. ¡No olvides agendar tu cita!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: horario image -->
+            <div class="flex justify-center">
+                <img src="assets/artes fotos/horario.png"
+                     alt="Horario de atención Strong Gym"
+                     class="w-full max-w-xs rounded-2xl border border-white/10">
+            </div>
         </div>
     </div>
 </section>
